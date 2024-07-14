@@ -1,17 +1,21 @@
-package com.devarifkhan;
+package com.devarifkhan.main;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import com.devarifkhan.beans.Vehicle;
+import com.devarifkhan.config.ProjectConfig;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        /*
+        The var keyword was introduced in Java 10. Type inference is used in
+        var keyword in which it detects automatically the datatype of a variable
+        based on the surrounding context.
+        * */
+        var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        // Vehicle veh = context.getBean(Vehicle.class);
+        Vehicle veh = context.getBean("vehicle1",Vehicle.class);
+        System.out.println("Vehicle name from Spring Context is: " + veh.getName());
     }
 }

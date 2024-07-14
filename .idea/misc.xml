@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/creatingBeans/pom.xml" />
         <option value="$PROJECT_DIR$/CreatingBeansUsingBeanAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/NoUniqueBeanDefinitionException/pom.xml" />
+        <option value="$PROJECT_DIR$/CustomNameToTheBean/pom.xml" />
+        <option value="$PROJECT_DIR$/PrimaryAnnotationInsideSpring/pom.xml" />
       </list>
     </option>
   </component>

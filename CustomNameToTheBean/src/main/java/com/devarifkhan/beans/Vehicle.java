@@ -1,6 +1,7 @@
 package com.devarifkhan.beans;
 
 public class Vehicle {
+
     private String name;
 
     public String getName() {

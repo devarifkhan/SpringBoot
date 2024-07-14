@@ -5,8 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.devarifkhan</groupId>
-    <artifactId>CreatingBeansUsingBeanAnnotation</artifactId>
+    <artifactId>PrimaryAnnotationInsideSpring</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
