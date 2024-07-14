@@ -7,9 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CreatingBeansUsingBeanAnnotation" />
-        <module name="CustomNameToTheBean" />
+        <module name="CreatingBeansXMLConfigurations" />
+        <module name="AspectOrientedProgramming" />
+        <module name="CreatingBeansUsingComponentAnnotation" />
+        <module name="BeansAutowiringDI" />
+        <module name="SingletonBeanScope" />
         <module name="NoUniqueBeanDefinitionException" />
+        <module name="WiringBeansUsingMethodParameters" />
+        <module name="CustomNameToTheBean" />
+        <module name="CreatingBeansProgrammaticallyUsingRegisterBean" />
+        <module name="PostConstructAndPreDestroyAnnotation" />
+        <module name="WiringBeansUsingMethodCall" />
+        <module name="AutowiringInsideSpring" />
         <module name="PrimaryAnnotationInsideSpring" />
+        <module name="WiringBeansUsingAutoWired" />
+        <module name="EagerAndLazyInstantiationSingletonbean" />
+        <module name="PrototypeBeanScope" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AspectOrientedProgramming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AspectOrientedProgramming/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutowiringInsideSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutowiringInsideSpring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BeansAutowiringDI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BeansAutowiringDI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CreatingBeansXMLConfigurations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CreatingBeansXMLConfigurations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EagerAndLazyInstantiationSingletonbean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EagerAndLazyInstantiationSingletonbean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PrototypeBeanScope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PrototypeBeanScope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SingletonBeanScope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SingletonBeanScope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WiringBeansUsingAutoWired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WiringBeansUsingAutoWired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WiringBeansUsingMethodCall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WiringBeansUsingMethodCall/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WiringBeansUsingMethodParameters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WiringBeansUsingMethodParameters/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

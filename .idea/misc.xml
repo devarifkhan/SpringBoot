@@ -10,10 +10,24 @@
         <option value="$PROJECT_DIR$/NoUniqueBeanDefinitionException/pom.xml" />
         <option value="$PROJECT_DIR$/CustomNameToTheBean/pom.xml" />
         <option value="$PROJECT_DIR$/PrimaryAnnotationInsideSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/CreatingBeansUsingComponentAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/PostConstructAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/CreatingBeansProgrammaticallyUsingRegisterBean/pom.xml" />
+        <option value="$PROJECT_DIR$/PostConstructAndPreDestroyAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/CreatingBeansXMLConfigurations/pom.xml" />
+        <option value="$PROJECT_DIR$/WiringBeansUsingMethodCall/pom.xml" />
+        <option value="$PROJECT_DIR$/WiringBeansUsingMethodParameters/pom.xml" />
+        <option value="$PROJECT_DIR$/WiringBeansUsingAutoWired/pom.xml" />
+        <option value="$PROJECT_DIR$/AutowiringInsideSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/BeansAutowiringDI/pom.xml" />
+        <option value="$PROJECT_DIR$/SingletonBeanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/EagerAndLazyInstantiationSingletonbean/pom.xml" />
+        <option value="$PROJECT_DIR$/PrototypeBeanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/AspectOrientedProgramming/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
