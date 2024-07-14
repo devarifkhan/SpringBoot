@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/EagerAndLazyInstantiationSingletonbean/pom.xml" />
         <option value="$PROJECT_DIR$/PrototypeBeanScope/pom.xml" />
         <option value="$PROJECT_DIR$/AspectOrientedProgramming/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleWebApplication/pom.xml" />
       </list>
     </option>
   </component>
