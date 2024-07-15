@@ -18,10 +18,10 @@ with stereotype annotations, we use the @ComponentScan annotation over the
 configuration class.
 * */
 @Configuration
-@ComponentScan(basePackages = {"com.example.implementation",
-        "com.example.services"})
-@ComponentScan(basePackageClasses = {com.example.beans.Vehicle.class,
-        com.example.beans.Person.class})
+@ComponentScan(basePackages = {"com.devarifkhan.implementation",
+        "com.devarifkhan.services"})
+@ComponentScan(basePackageClasses = {com.devarifkhan.beans.Vehicle.class,
+        com.devarifkhan.beans.Person.class})
 public class ProjectConfig {
 
 }

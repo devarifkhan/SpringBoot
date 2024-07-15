@@ -1,6 +1,7 @@
 package com.devarifkhan.implementation;
 
 import com.devarifkhan.interfaces.Speakers;
+import com.devarifkhan.model.Song;
 import org.springframework.stereotype.Component;
 
 @Component
