@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <title>Easy School</title>
 </head>
 <body>
-<h1>Welcome to Easy School</h1>
+<h1 th:text="'Hello,' +${username} +' !!! Welcome to Easy School.'"></h1>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
