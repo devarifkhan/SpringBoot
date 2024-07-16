@@ -2,9 +2,13 @@ package com.devarifkhan.easyschool.controller;
 
 import com.devarifkhan.easyschool.model.Contact;
 import com.devarifkhan.easyschool.service.ContactService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.Errors;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -22,7 +26,8 @@ public class ContactController {
     }
 
     @RequestMapping("/contact")
-    public String displayContactPage() {
+    public String displayContactPage(Model model) {
+        model.addAttribute("contact", new Contact());
         return "contact.html";
     }
 
@@ -37,12 +42,16 @@ public class ContactController {
         return new ModelAndView("redirect:/contact");
     }*/
 
-    @RequestMapping(value = "/saveMsg",method = POST)
-    public ModelAndView saveMessage(Contact contact){
-        contactService.saveMessageDetails(contact);
-        return new ModelAndView("redirect:/contact");
-    }
+    @RequestMapping(value = "/saveMsg", method = POST)
+    public String saveMessage(@Valid @ModelAttribute("contact") Contact contact, Errors errors) {
+       if (errors.hasErrors()){
+           log.error("Contact form validation failed: "+errors.toString());
+           return "contact.html";
+       }
 
+        contactService.saveMessageDetails(contact);
+        return "redirect:/contact";
+    }
 
 
 }
