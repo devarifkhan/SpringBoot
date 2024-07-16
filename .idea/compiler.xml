@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,8 +13,8 @@
         <module name="CreatingBeansUsingComponentAnnotation" />
         <module name="BeansAutowiringDI" />
         <module name="SingletonBeanScope" />
-        <module name="SimpleWebApplication" />
         <module name="NoUniqueBeanDefinitionException" />
+        <module name="EasySchool" />
         <module name="WiringBeansUsingMethodParameters" />
         <module name="CustomNameToTheBean" />
         <module name="CreatingBeansProgrammaticallyUsingRegisterBean" />
@@ -26,9 +27,13 @@
         <module name="PrototypeBeanScope" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SimpleWebApplication" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EasySchool" options="-parameters" />
       <module name="SimpleWebApplication" options="-parameters" />
     </option>
   </component>
